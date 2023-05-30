@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qsl-problem-3"
+version = "0.1.0"
+description = ""
+authors = ["Md. Nazrul Islam Khan <nazrulkhan.dk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qsl_problem_3"}]
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+ortools = "^9.6.2534"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
